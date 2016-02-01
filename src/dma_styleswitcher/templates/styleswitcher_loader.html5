@@ -1,0 +1,7 @@
+<?php
+
+if ($this->style == "high"):
+    $GLOBALS['TL_CSS']['STYLESWITCHER'] = "high.css";
+else:
+    $GLOBALS['TL_CSS']['STYLESWITCHER'] = "normal.css";
+endif;
